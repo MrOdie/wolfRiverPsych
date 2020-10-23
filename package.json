@@ -1,0 +1,30 @@
+{
+  "name": "wolfriverpsych",
+  "version": "1.0.0",
+  "description": "This is an application meant to be used by mental health professionals",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrOdie/wolfRiverPsych.git"
+  },
+  "author": "MrOdie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrOdie/wolfRiverPsych/issues"
+  },
+  "homepage": "https://github.com/MrOdie/wolfRiverPsych#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.0",
+    "express-validator": "^6.4.0",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "normalize-url": "^5.0.0",
+    "slugify": "^1.4.0"
+  }
+}
